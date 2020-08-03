@@ -1,25 +1,26 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
-  }
+  font-family: Helvetica, Arial, sans-serif;
+  color: #39a6b2;
+}
 
-  /* apply styles to <header>*/
-  header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-  }
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
 
-  header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-  }
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline;
+}
 
 header a {
   text-decoration: none;
@@ -41,14 +42,6 @@ header nav ul li a {
   font-size: 22px;
 }
 
-header h1 {
-  font-weight: bold;
-  font-size: 36px;
-  color: #fce138;
-  margin: 0;
-  display: inline;
-}
-
 footer {
   background: #fce138;
   width: 100%;
@@ -68,12 +61,6 @@ footer div {
   text-align: right;
 }
 
-footer a {
+footer a { 
   color: #024e76;
-  text-align: left;
-}
-
-section {
-  padding:60px;
-  background-image: url("../images/hero-bg.jpg");
 }
