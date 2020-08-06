@@ -179,19 +179,19 @@ section {
 }
 
 .step {
-  margin: 50px auto;
-  padding-bottom: 50px;
-  width: 100%;
-  border-bottom: 1px solid #39a6b2;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
 }
 
 .step h3 {
   color: #024e76;
   font-size: 46px;
-  flex: 2 70%;
+  flex: 1 30%;
 }
 
 .step-text {
@@ -424,6 +424,7 @@ section {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+  
   .hero-form button {
     width: 100%;
   }
@@ -440,8 +441,8 @@ section {
     flex: 0 100%;
   }
 
-  .contact-info > * {
-    flex: 0 100%;
+  .contact-info {
+    text-align: left;
   }
 
   .contact-form {
